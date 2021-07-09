@@ -70,15 +70,18 @@ class GridItem extends StatelessWidget {
                 height: 8,
               ),
 
-              Container(
-                alignment: Alignment.bottomRight,
-                height: 20,
-                width: 20,
-                decoration: BoxDecoration(
-                  color: product.color.withOpacity(1.0),
-                  borderRadius: BorderRadius.only(topLeft: Radius.circular(20),),
+              Padding(
+                padding: const EdgeInsets.all(1.0),
+                child: Container(
+                  width: 20,
+                  height: 20,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    color: product.addColor,
+                    borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20)),
+                  ),
+                  child: IconWidget(icon: Icons.add,color: Colors.white,size: 14,),
                 ),
-                child: IconWidget(icon: Icons.add,color: Colors.white,size: 14,),
               ),
             ],
           ),

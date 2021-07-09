@@ -7,9 +7,10 @@ class Product {
   String info;
   String imageUrl;
   String description;
+  Color addColor;
 
   Product(this.title, this.color, this.price, this.info, this.imageUrl,
-      this.description);
+      this.description,this.addColor);
 }
 
 List<Product> getProductsList() {
@@ -21,6 +22,7 @@ List<Product> getProductsList() {
       'per kg',
       'assets/images/bananas.png',
       "Mango's tropical taste has a universal appeal. The meat has the sweetness of a peach. This cocricot colored fruit has just enough fiber to give it some chewiness.",
+        Color(0xFFF3CF1E),
     ),
     Product(
       'Blueberries',
@@ -29,6 +31,7 @@ List<Product> getProductsList() {
       'per kg',
       'assets/images/blueberry.png',
       "Mango's tropical taste has a universal appeal. The meat has the sweetness of a peach. This cocricot colored fruit has just enough fiber to give it some chewiness.",
+      Color(0xFFB0B0F6),
     ),
     Product(
       'Dragon Fruit',
@@ -37,6 +40,7 @@ List<Product> getProductsList() {
       'per kg',
       'assets/images/dragon_fruit.png',
       "Mango's tropical taste has a universal appeal. The meat has the sweetness of a peach. This cocricot colored fruit has just enough fiber to give it some chewiness.",
+        Color(0xFFF38BEF),
     ),
     Product(
       'Lychee',
@@ -45,6 +49,7 @@ List<Product> getProductsList() {
       'per kg',
       'assets/images/lychee.png',
       "Mango's tropical taste has a universal appeal. The meat has the sweetness of a peach. This cocricot colored fruit has just enough fiber to give it some chewiness.",
+      Color(0xFF86DB73),
     ),
     Product(
       'Mango',
@@ -53,6 +58,7 @@ List<Product> getProductsList() {
       'per kg',
       'assets/images/mango.png',
       "Mango's tropical taste has a universal appeal. The meat has the sweetness of a peach. This cocricot colored fruit has just enough fiber to give it some chewiness.",
+      Color(0xFFF8C84A),
     ),
     Product(
       'Papaya',
@@ -61,6 +67,7 @@ List<Product> getProductsList() {
       'per kg',
       'assets/images/papaya.png',
       "Mango's tropical taste has a universal appeal. The meat has the sweetness of a peach. This cocricot colored fruit has just enough fiber to give it some chewiness.",
+      Color(0xFFFD9533),
     ),
     Product(
       'Pineapple',
@@ -69,6 +76,7 @@ List<Product> getProductsList() {
       'per kg',
       'assets/images/pineapple.png',
       "Mango's tropical taste has a universal appeal. The meat has the sweetness of a peach. This cocricot colored fruit has just enough fiber to give it some chewiness.",
+      Color(0xFFF8ED8D),
     ),
     Product(
       'Strawberries',
@@ -77,6 +85,7 @@ List<Product> getProductsList() {
       'per kg',
       'assets/images/strawberry.png',
       "Mango's tropical taste has a universal appeal. The meat has the sweetness of a peach. This cocricot colored fruit has just enough fiber to give it some chewiness.",
+      Color(0xFFFAB9BD),
     ),
   ];
 }
